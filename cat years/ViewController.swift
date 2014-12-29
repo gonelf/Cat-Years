@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var catYearsInput: UITextField!
+    @IBOutlet weak var answer: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +23,17 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func calculateCatYears(sender: AnyObject) {
+        let catYears = catYearsInput.text.toInt();
+        if  ((catYears) != nil) {
+            var newCatYears = catYears! * 7
+            answer.text = "Your cat is \(newCatYears) human years"
+        }
+        else {
+            answer.text = "Please enter a value"
+            catYearsInput.becomeFirstResponder()
+        }
+    }
 
 }
 

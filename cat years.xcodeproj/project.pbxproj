@@ -13,6 +13,7 @@
 		4B51BD071A4494DC00B16AF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B51BD061A4494DC00B16AF5 /* Images.xcassets */; };
 		4B51BD0A1A4494DC00B16AF5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B51BD081A4494DC00B16AF5 /* LaunchScreen.xib */; };
 		4B51BD161A4494DC00B16AF5 /* cat_yearsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B51BD151A4494DC00B16AF5 /* cat_yearsTests.swift */; };
+		4B51BD201A44971100B16AF5 /* imgres.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B51BD1F1A44971100B16AF5 /* imgres.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		4B51BD0F1A4494DC00B16AF5 /* cat yearsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cat yearsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B51BD141A4494DC00B16AF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B51BD151A4494DC00B16AF5 /* cat_yearsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cat_yearsTests.swift; sourceTree = "<group>"; };
+		4B51BD1F1A44971100B16AF5 /* imgres.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imgres.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				4B51BCFF1A4494DC00B16AF5 /* AppDelegate.swift */,
 				4B51BD011A4494DC00B16AF5 /* ViewController.swift */,
 				4B51BD031A4494DC00B16AF5 /* Main.storyboard */,
+				4B51BD1F1A44971100B16AF5 /* imgres.jpg */,
 				4B51BD061A4494DC00B16AF5 /* Images.xcassets */,
 				4B51BD081A4494DC00B16AF5 /* LaunchScreen.xib */,
 				4B51BCFD1A4494DC00B16AF5 /* Supporting Files */,
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B51BD201A44971100B16AF5 /* imgres.jpg in Resources */,
 				4B51BD051A4494DC00B16AF5 /* Main.storyboard in Resources */,
 				4B51BD0A1A4494DC00B16AF5 /* LaunchScreen.xib in Resources */,
 				4B51BD071A4494DC00B16AF5 /* Images.xcassets in Resources */,
